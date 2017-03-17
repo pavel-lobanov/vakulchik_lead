@@ -4,10 +4,16 @@
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <title>Bootstrap 101 Template</title>
+	    <title>Landing page</title>
 	    <!-- Bootstrap -->
 	    <!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	    <!--[if lt IE 9]>
@@ -16,12 +22,70 @@
 	    <![endif]-->
 	 	</head>
  	<body>
-	    <h1>Hello, world!</h1>
+ 		<div id="wrapper">
+ 			<header id="header">
+ 				<div class="container">
+			    	<div class="row">
+			    		<div class="col-md-8">
+							<div class="left-logo">
+								<img src="img/EG_01_logo_02.png" alt="logo">
+								<div class="logo-text"><span>Центр развития бизнеса и личности Адексея Вакульчика</span></div>
+							</div>	
+							<div class="enrollment">
+								<h1>Запись на бесплатынй мастер-класс</h1>
+								<h2>«КАК НАЙТИ СВОЮ ТОЧКУ РОСТА»</h2>
+								<div class="entry-form">
+									<form class="form-panel">
+										<label>Запись на бесплатный мастер-класс</label>
+										<input type="text" placeholder="Ваше имя">
+										<input type="text" placeholder="Ваш телефон">
+										<div class="orange-btn entry-btn"><a href="#">Записаться</a></div>
+										<div class="eneo-more">
+											<span>Мастер - класс построен на концепции “Эннеаграмма”</span>
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</form>
+								</div>
+
+							</div>
+			    		</div>
+			    		<div class="col-md-4 ">
+			    			<div class="right-phone">
+			    				<span>+375 (29) 590 13 47</span>
+				    			<div class="orange-btn"><a href="#">Заказать звонок</a></div>
+			    			</div>
+			    			<div class="couch-photo">
+			    				<div class="couch-img"><span>ФОТО КОУЧА</span></div>
+			    				<div class="couch-sign"><span>И СДЕСЬ БУДЕТ ПОДПИСЬ <br> “С вами практикующий коуч ф.и.о”</span></div>
+			    			</div>
+			    		</div>
+			    	</div>
+	    		</div>
+ 			</header>
+ 			<section id="how-you-get">
+ 				<div class="container">
+ 					<div class="row">
+ 						<h1>Что вы получите пройдя курс</h1>
+ 						<ul>
+ 							<li><span>Узнаете какой стиль  лидерства работает у вас</span></li>
+ 							<li><span>Получите уникальный  инструмент мотивации себя и сотрудников би</span></li>
+ 							<li><span>Будете точно знать кого нанимать  и на какие позиции,а кого точ</span></li>
+ 							<li><span>Кто из ваших сотрудников  изначально готов для лидерства</span></li>
+ 							<li><span>Насквозь увидите своих  сотрудников,будете знать как  управлять</span></li>
+ 							<li><span>Выстроите сильную, надежную, эффективную и крепкую команду</span></li>
+ 						</ul>
+ 						<div class="btn-orange-border"><a href="#">Оставить заявку</a></div>
+ 					</div>
+ 				</div>
+ 			</section>
+ 		</div>
+	    
 
 	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 	    <!-- Include all compiled plugins (below), or include individual files as needed -->
 	    <!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
  	</body>
 </html>

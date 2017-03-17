@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700");
+body {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+@media all and (min-width: 1200px) {
+  .container {
+    width: 1366px;
+    padding-left: 69px; } }
+
+#header {
+  height: 630px;
+  background: #330b66;
+  background: -moz-linear-gradient(left, #330b66 0%, #2fcbcd 100%);
+  background: -webkit-linear-gradient(left, #330b66 0%, #2fcbcd 100%);
+  background: linear-gradient(to right, #330b66 0%, #2fcbcd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#330b66', endColorstr='#2fcbcd',GradientType=1 );
+  color: #fff;
+  padding-top: 42px; }
+  #header .left-logo img {
+    vertical-align: top; }
+  #header .logo-text {
+    display: inline-block;
+    width: 200px;
+    margin-left: 14px;
+    margin-top: 5px;
+    line-height: 15px; }
+    #header .logo-text span {
+      font-size: .8em; }
+  #header .enrollment h1 {
+    margin-top: 37px;
+    font-size: 50px;
+    font-weight: bold;
+    white-space: nowrap; }
+  #header .enrollment h2 {
+    font-size: 35px;
+    font-weight: 300;
+    margin-left: 136px;
+    margin-top: -15px; }
+  #header .enrollment .entry-form {
+    width: 376px;
+    height: 262px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-left: 179px;
+    margin-top: 46px; }
+    #header .enrollment .entry-form .form-panel {
+      text-align: center; }
+      #header .enrollment .entry-form .form-panel label {
+        margin-top: 22px;
+        font-weight: normal;
+        font-size: 16px; }
+      #header .enrollment .entry-form .form-panel input[type="text"] {
+        margin: 0 auto;
+        display: block;
+        background: transparent;
+        border: 1px solid #24E7FE;
+        border-radius: 5px;
+        padding: 10px;
+        width: 228px;
+        margin-top: 17px; }
+        #header .enrollment .entry-form .form-panel input[type="text"]:nth-child(3) {
+          margin-top: 25px; }
+        #header .enrollment .entry-form .form-panel input[type="text"]::-webkit-input-placeholder {
+          opacity: 1;
+          transition: opacity 0.3s ease;
+          font-family: 'Roboto Condensed', sans-serif;
+          text-align: center; }
+        #header .enrollment .entry-form .form-panel input[type="text"]::-moz-placeholder {
+          opacity: 1;
+          transition: opacity 0.3s ease;
+          font-family: 'Roboto Condensed', sans-serif;
+          text-align: center; }
+        #header .enrollment .entry-form .form-panel input[type="text"]:-moz-placeholder {
+          opacity: 1;
+          transition: opacity 0.3s ease;
+          font-family: 'Roboto Condensed', sans-serif;
+          text-align: center; }
+        #header .enrollment .entry-form .form-panel input[type="text"]:-ms-input-placeholder {
+          opacity: 1;
+          transition: opacity 0.3s ease;
+          font-family: 'Roboto Condensed', sans-serif;
+          text-align: center; }
+        #header .enrollment .entry-form .form-panel input[type="text"]:focus::-webkit-input-placeholder {
+          opacity: 0;
+          transition: opacity 0.3s ease; }
+        #header .enrollment .entry-form .form-panel input[type="text"]:focus::-moz-placeholder {
+          opacity: 0;
+          transition: opacity 0.3s ease; }
+        #header .enrollment .entry-form .form-panel input[type="text"]:focus:-moz-placeholder {
+          opacity: 0;
+          transition: opacity 0.3s ease; }
+        #header .enrollment .entry-form .form-panel input[type="text"]:focus:-ms-input-placeholder {
+          opacity: 0;
+          transition: opacity 0.3s ease; }
+      #header .enrollment .entry-form .form-panel .entry-btn {
+        margin: 0 auto;
+        margin-top: 35px; }
+        #header .enrollment .entry-form .form-panel .entry-btn a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 20px;
+          background-color: #FF5210;
+          padding: 11px 67px;
+          border-radius: 5px; }
+      #header .enrollment .entry-form .form-panel .eneo-more {
+        font-size: 16px;
+        font-weight: lighter;
+        width: 376px;
+        margin-top: 43px; }
+        #header .enrollment .entry-form .form-panel .eneo-more a {
+          color: #30AEBE; }
+  #header .right-phone {
+    margin-top: -5px; }
+    #header .right-phone span {
+      font-size: 20px;
+      margin-left: 28px; }
+    #header .right-phone .orange-btn {
+      margin: 14px 0 0 29px; }
+      #header .right-phone .orange-btn a {
+        padding: 6px 24px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 3px;
+        background-color: #FF5210; }
+  #header .couch-photo {
+    position: relative;
+    width: 348px;
+    height: 418px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 111px;
+    margin-left: -52px;
+    border-top-left-radius: 21%;
+    border-top-right-radius: 21%; }
+    #header .couch-photo .couch-img {
+      position: absolute;
+      top: 152px;
+      left: 41px; }
+      #header .couch-photo .couch-img span {
+        font-size: 50px;
+        font-weight: bold; }
+    #header .couch-photo .couch-sign {
+      position: absolute;
+      top: 262px;
+      left: 21px;
+      text-align: center; }
+      #header .couch-photo .couch-sign span {
+        font-size: 22px; }
+
+#how-you-get h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-left: -53px;
+  margin-top: 56px; }
+
+#how-you-get ul {
+  list-style-type: none; }
+  #how-you-get ul li {
+    width: 368px;
+    height: 260px;
+    border: 1px solid;
+    display: inline-block; }

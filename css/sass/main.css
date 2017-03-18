@@ -183,31 +183,31 @@ body {
       bottom: 0;
       right: 0; }
     #how-you-get ul li:nth-child(1) {
-      background: url(/img/9b18cfacd16f489c553d3382400478d5.jpg) no-repeat;
+      background: url(../img/9b18cfacd16f489c553d3382400478d5.jpg) no-repeat;
       background-size: 113%;
       background-position: -14px 80%;
       margin-bottom: 48px; }
     #how-you-get ul li:nth-child(2) {
-      background: url(/img/dce66152dc1.jpg) no-repeat;
+      background: url(../img/dce66152dc1.jpg) no-repeat;
       background-size: 110%;
       background-position: 86%;
       margin-bottom: 48px;
       width: 376px; }
     #how-you-get ul li:nth-child(3) {
-      background: url(/img/imagem-1.jpg) no-repeat;
+      background: url(../img/imagem-1.jpg) no-repeat;
       background-size: cover;
       margin-bottom: 48px; }
     #how-you-get ul li:nth-child(4) {
-      background: url(/img/4323a9497a14ef99a514bd8b7c8ed52f.jpg) no-repeat;
+      background: url(../img/4323a9497a14ef99a514bd8b7c8ed52f.jpg) no-repeat;
       background-size: cover;
       background-position: 28%; }
     #how-you-get ul li:nth-child(5) {
-      background: url(/img/ozenka_p_2.jpg) no-repeat;
+      background: url(../img/ozenka_p_2.jpg) no-repeat;
       background-size: cover;
       background-position: 100%;
       width: 376px; }
     #how-you-get ul li:nth-child(6) {
-      background: url(/img/ite-mutluluk5.jpg) no-repeat;
+      background: url(../img/ite-mutluluk5.jpg) no-repeat;
       background-size: cover; }
 
 #how-you-get .btn-orange-border {

@@ -628,3 +628,54 @@ $blue_color: #00475d;
 		}
 	}	
 }
+#contacts {
+	.left-logo {
+		margin: 74px 0 0 109px;
+		display: inline-block;
+		img {
+			vertical-align: bottom;
+		}
+		div {
+			display: inline-block;
+			margin-left: 22px;
+			span {
+				font-size: 20px;
+			}
+		}
+	}
+	.phone {
+		display: inline-block;
+		position: relative;
+		left: 6px;
+		top: 10px;
+		span {
+			font-size: 20px;
+			margin-left: 28px;
+		}
+		.orange-btn {
+    		margin: 14px 0 0 29px;
+			a {
+				padding: 6px 24px;
+				color: #fff;
+				text-decoration: none;
+				font-size: 16px;
+				border-radius: 3px;
+				background-color: $orange-color;
+			}
+		}
+	}
+	.right-address {
+		display: inline-block;
+		margin-left: 90px;
+		span {
+			font-size: 20px;
+		}
+	}
+	iframe {
+		border:0; 
+		float: right; 
+		display: block;
+		margin-right: 34px;
+    	margin-top: 12px;
+	}
+}
